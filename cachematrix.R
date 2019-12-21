@@ -7,7 +7,7 @@
 ##1)It initially sets the inverse(inv) to NULL
 ##2)Returns a list containing four functions-
 ##  Setters: set() and setInverse() to cache the matrix and it's inverse respectively
-##  Getters: get() and getInverse() to read the matric and it's inverse respectively
+##  Getters: get() and getInverse() to read the matrix and it's inverse respectively
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
   set <- function(y) {
